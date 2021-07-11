@@ -1,0 +1,450 @@
+<resources>
+    <string name="app_name">Ask Doctor</string>
+
+    <string name="wait_fragment_message">Please Wait ..</string>
+    <string name="error_fragment_message">Error Occurred !</string>
+
+    <!--    جراحة العظام-->
+    <string name="department_1">Orthopaedic Surgery</string>
+    <!--    طب الاسنان-->
+    <string name="department_2">Dentistry</string>
+    <!--    أخصائي القلي-->
+    <string name="department_3">Cardiologist</string>
+    <!--    اخصائي طب الاطفال-->
+    <string name="department_4">Pediatrics</string>
+    <!--    أخصائي الامراض الجلدية-->
+    <string name="department_5">Dermatologist</string>
+    <!--    جراح تجميل-->
+    <string name="department_6">Plastic Surgeon</string>
+    <!--    أخصائي اشعة-->
+    <string name="department_7">Radiography</string>
+    <!--    أخصائي الاورام-->
+    <string name="department_8">Oncologist</string>
+    <!--طبيب النسا-->
+    <string name="department_9">Obstetrics and Gynaecology</string>
+    <!--    طبيب المسالك البولية-->
+    <string name="department_10">Urologist</string>
+    <!--    أخصائي امراض الجهاز الهضمي-->
+    <string name="department_11">Gastroenterologist</string>
+    <!--    أخصائي امراض الرئة-->
+    <string name="department_12">Pulmonologist</string>
+    <!--    القسم العام-->
+    <string name="public_department">Public Department</string>
+
+
+    <string name="department_1_Detail">Description \n
+        The range of treatments done by orthopedists is enormous. It can cover anything from
+        traction to amputation, hand reconstruction to spinal fusion or joint replacements.
+        They also treat broken bones, strains and sprains,
+        and dislocations. Some specific procedures done by orthopedic surgeons are listed as separate
+        entries in this book, including arthroplasty, arthroscopic surgery, bone grafting, fasciotomy,
+        fracture repair, kneecap removal, and traction.
+
+        In general orthopedists are attached to a hospital, medical center, trauma center, or free-standing
+        surgical center where they work closely with a surgical team including an anesthesiologist and
+        surgical nurse. Orthopedic surgery can be performed under general, regional, or local anesthesia.
+
+        Much of the work of the surgeon involves adding foreign material to the body in the form of screws,
+        wires, pins, tongs, and prosthetics to hold damaged bones in their proper alignment or to replace
+        damaged bone or connective tissue. Great improvements have been made in the development of artificial
+        limbs and joints, and in the materials available to repair damage to bones and connective tissue.
+
+        As developments occur in the fields of metallurgy and plastics, changes will take place in orthopedic
+        surgery that will allow the surgeon to more nearly duplicate the natural functions of the bones, joints,
+        and ligaments, and to more accurately restore damaged parts to their original range of motion.
+    </string>
+
+    <string name="department_2_Detail">Description \n
+        Dentistry, also known as dental medicine and oral medicine, is a branch of medicine
+        that consists of the study, diagnosis, prevention, and treatment of diseases, disorders,
+        and conditions of the oral cavity, commonly in the dentition but also the oral mucosa,
+        and of adjacent and related structures and tissues, particularly in the maxillofacial
+        (jaw and facial) area.
+
+        Although primarily associated with teeth among the general public,
+        the field of dentistry or dental medicine is not limited to teeth but includes other aspects of the
+        craniofacial complex including the temporomandibular joint and other supporting, muscular,
+        lymphatic, nervous, vascular, and anatomical structures.
+
+        Dentistry is often also understood to subsume the now largely defunct medical
+        specialty of stomatology (the study of the mouth and its disorders and diseases)
+        for which reason the two terms are used interchangeably in certain regions.
+
+        Dental treatments are carried out by a dental team, which often consists of a dentist and dental
+        auxiliaries (dental assistants, dental hygienists, dental technicians, as well as dental therapists).
+        Most dentists either work in private practices (primary care), dental hospitals or (secondary care)
+        institutions (prisons, armed forces bases, etc.).
+
+        The history of dentistry is almost as ancient as the history of humanity and civilization
+        with the earliest evidence dating from 7000 BC to 5500 BC.Skeletal remains from Mehgarh
+        (now in Pakistan) dated to that time show evidence of teeth having been drilled with flint tools to
+        remove decay, a method found to be "surprisingly effective".Dentistry is thought to have been the
+        first specialization in medicine.The modern movement of evidence-based dentistry calls for the use
+        of high-quality scientific evidence to guide decision-making.
+    </string>
+
+    <string name="department_3_Detail">
+        What is a Cardiologist?
+        Cardiologists are doctors who specialize in diagnosing and treating diseases or
+        conditions of the heart and blood vessels—the cardiovascular system.
+
+        Description \n
+        Cardiologists are doctors who specialize in diagnosing and treating diseases or
+        conditions of the heart and blood vessels—the cardiovascular system. You might also
+        visit a cardiologist so you can learn about your risk factors for heart
+        disease and find out what measures you can take for better heart health.
+
+        When you are dealing with a complex health condition like heart disease,
+        it is important that you find the right match between you and your specialist.
+
+        A diagnosis of heart or vascular disease often begins with your primary care doctor,
+        who then refers you to a cardiologist. The cardiologist evaluates your symptoms and your
+        medical history and may recommend tests for a more definite diagnosis. Then, your cardiologist
+        decides if your condition can be managed under his or her care using medicines or other available treatments.
+        If your cardiologist decides that you need surgery, he or she refers you to a cardiovascular surgeon,
+        who specializes in operations on the heart, lungs, and blood vessels.
+
+        You remain under the care of your cardiologist even when you are referred to other specialists.
+        Cardiology is a complex field, so many cardiologists specialize in different areas.
+
+        All cardiologists are clinical cardiologists who focus on the diagnosis,
+        medical management (use of medicines), and prevention of cardiovascular disease.
+
+        Some clinical cardiologists specialize in pediatric cardiology, which means they
+        diagnose and treat heart problems in children.
+
+        When clinical cardiologists treat only
+        adult patients, they specialize in adult cardiology. Other clinical cardiologists may specialize
+        in interventional procedures (balloon angioplasty and stent placement), echocardiography, or
+        electrophysiology.
+
+        Cardiologists at the Texas Heart Institute research and develop techniques
+        for treating heart and vascular diseases.
+    </string>
+    <string name="department_4_Detail">Description \n
+        Pediatrics is the branch of
+        medicine that involves the medical care of infants, children,
+        and adolescents.
+        The American Academy of Pediatrics recommends people be under pediatric care
+        through the age of 21 (though usually only minors are required to be under pediatric care).
+        In the United Kingdom, paediatrics covers patients until age 18.Worldwide age limits of
+        pediatrics have been trending up year over year. A medical doctor who specializes in
+        this area is known as a pediatrician, or paediatrician. The word pediatrics and its cognates mean
+        "healer of children"
+        Pediatricians work in hospitals and children\'s hospitals particularly
+        those working in its subspecialties (e.g. neonatology), and as outpatient primary care physicians.
+    </string>
+    <string name="department_5_Detail">Description \n
+        Dermatology is the branch of medicine dealing with the skin.
+        It is a speciality with both medical and surgical aspects.
+        A dermatologist is a specialist medical doctor who manages diseases related to skin,
+        hair, nails, and some cosmetic problems.
+    </string>
+    <string name="department_6_Detail">Description \n
+        Plastic surgery is a surgical specialty involving the restoration,
+        reconstruction, or alteration of the human body.
+        It can be divided into two main categories: reconstructive surgery and cosmetic surgery.
+        Reconstructive surgery includes craniofacial surgery, hand surgery, microsurgery,
+        and the treatment of burns. While reconstructive surgery aims to reconstruct a part of the
+        body or improve its functioning, cosmetic (or aesthetic) surgery aims at improving the appearance of it.
+    </string>
+    <string name="department_7_Detail">Description \n
+        Radiography is an imaging technique using X-rays, gamma rays, or similar ionizing radiation
+        and non-ionizing radiation to view the internal form of an object.
+        Applications of radiography include medical radiography ("diagnostic" and "therapeutic")
+        and industrial radiography. Similar techniques are used in airport security
+        (where "body scanners" generally use backscatter X-ray). To create an image in conventional
+        radiography, a beam of X-rays is produced by an X-ray generator and is projected toward the object.
+        A certain amount of the X-rays or other radiation is absorbed by the object, dependent on the object\'s
+        density and structural composition. The X-rays that pass through the object are captured
+        behind the object by a detector (either photographic film or a digital detector).
+        The generation of flat two dimensional images by this technique is called projectional radiography.
+        In computed tomography (CT scanning) an X-ray source and its associated detectors rotate around the
+        subject which itself moves through the conical X-ray beam produced. Any given point within
+        the subject is crossed from many directions by many different beams at different times.
+        Information regarding attenuation of these beams is collated and subjected to computation to
+        generate two dimensional images in three planes (axial, coronal, and sagittal) which can be further
+        processed to produce a three dimensional image.
+    </string>
+    <string name="department_8_Detail">Description \n
+        Oncology is a branch of medicine that deals with the prevention, diagnosis,
+        and treatment of cancer. A medical professional who practices oncology is an oncologist.
+        The name\'s etymological origin is the Greek word ὄγκος (óngkos), meaning 1.
+        "burden, volume, mass" and 2. "barb", and the Greek word λόγος (logos), meaning "study".
+        The neoclassical term oncology was used from 1618, initially in neo-Greek,
+        in cognizance of Galen\'s work on abnormal tumors, De tumoribus præter naturam (Περὶ τῶν παρὰ φύσιν ὄγκων).
+        Cancer survival has improved due to three main components:
+        improved prevention efforts to reduce exposure to risk factors (e.g., tobacco smoking and alcohol
+        consumption),improved screening of several cancers (allowing for earlier diagnosis),
+        and improvements in treatment.
+        Cancers are often managed through discussion on multi-disciplinary cancer conferences
+        where medical oncologists, surgical oncologists, radiation oncologist, pathologists,
+        radiologists, and organ specific oncologists meet to find the best possible management
+        for an individual patient considering the physical, social, psychological, emotional,
+        and financial status of the patient.[9] It is very important for oncologists to keep updated with
+        respect to the latest advancements in oncology, as changes in management of cancer are quite common.
+        Because a cancer diagnosis can cause distress and anxiety, clinicians may use
+        a number of strategies such as SPIKES for delivering the bad news.
+    </string>
+    <string name="department_9_Detail">Description \n
+        Obstetrics and gynaecology (British English) or obstetrics and gynecology
+        (American English) is the medical specialty that encompasses the two subspecialties of obstetrics
+        (covering pregnancy, childbirth, and the postpartum period) and gynecology
+        (covering the health of the female reproductive system – vagina, uterus, ovaries, and breasts).
+        It is commonly abbreviated as OB-GYN or OB/GYN in US English and Canadian English,
+        and as obs and gynae or O and G in British English.
+        Postgraduate training programs for both fields are usually combined,
+        preparing the practicing obstetrician-gynecologist to be adept both at the care of
+        female reproductive organs\' health and at the management of pregnancy, although many
+        doctors go on to develop subspecialty interests in one field or the other.
+    </string>
+    <string name="department_10_Detail">Description \n
+        Urology , also known as genitourinary surgery,
+        is the branch of medicine that focuses on surgical and medical diseases of the male and female
+        urinary-tract system and the male reproductive organs. Organs under the domain of urology include
+        the kidneys, adrenal glands, ureters, urinary bladder, urethra, and the male reproductive organs
+        (testes, epididymis, vas deferens, seminal vesicles, prostate, and penis).
+        The urinary and reproductive tracts are closely linked, and disorders of one often affect the other.
+        Thus a major spectrum of the conditions managed in urology exists under the domain of genitourinary
+        disorders. Urology combines the management of medical (i.e., non-surgical) conditions, such as
+        urinary-tract infections and benign prostatic hyperplasia, with the management of surgical conditions
+        such as bladder or prostate cancer, kidney stones, congenital abnormalities, traumatic injury, and stress
+        incontinence.
+        Urological techniques include minimally invasive robotic and laparoscopic surgery, laser-assisted surgeries,
+        and other scope-guided procedures. Urologists receive training in open and minimally invasive surgical
+        techniques, employing real-time ultrasound guidance, fiber-optic endoscopic equipment, and
+        various lasers in the treatment of multiple benign and malignant conditions.Urology is
+        closely related to (and urologists often collaborate with the practitioners of) oncology, nephrology,
+        gynaecology, andrology, pediatric surgery, colorectal surgery, gastroenterology, and endocrinology.
+        Urology is one of the most competitive and highly sought surgical specialties for physicians, with new urologists
+        comprising less than 1.5% of United States medical-school graduates each year.
+        Urologists are physicians which have specialized in the field after completing their general degree in medicine.
+        Upon successful completion of a residency program, many urologists choose to undergo further advanced
+        training in a subspecialty area of expertise through a fellowship lasting an additional 12 to 36 months.
+        Subspecialties may include: urologic surgery, urologic oncology and urologic oncological surgery,
+        endourology and endourologic surgery, urogynecology and urogynecologic surgery, reconstructive urologic
+        surgery (a form of reconstructive surgery), minimally-invasive urologic surgery, pediatric urology and
+        pediatric urologic surgery (including adolescent urology, the treatment of premature or delayed puberty,
+        and the treatment of congenital urological syndromes, malformations, and deformations), transplant urology
+        (the field of transplant medicine and surgery concerned with transplantation of organs such as the kidneys,
+        bladder tissue, ureters, and, recently, penises), voiding dysfunction, paruresis, neurourology,
+        and androurology and sexual medicine. Additionally, some urologists supplement their fellowships with a
+        master\'s degree (2–3 years) or with a Ph.D. (4–6 years) in related topics to prepare them for academic
+        as well as focused clinical employment.
+    </string>
+    <string name="department_11_Detail">Description \n
+        Gastroenterology is the branch of medicine focused on the digestive system and its disorders.
+        Diseases affecting the gastrointestinal tract, which include the organs from mouth into anus, along the
+        alimentary canal, are the focus of this speciality. Physicians practicing in this field are called
+        gastroenterologists. They have usually completed about eight years of pre-medical and medical education,
+        a year-long internship (if this is not a part of the residency), three years of an internal medicine
+        residency, and three years in the gastroenterology fellowship. Gastroenterologists perform a number
+        of diagnostic and therapeutic procedures including colonoscopy, esophagogastroduodenoscopy (EGD),
+        endoscopic retrograde cholangiopancreatography (ERCP), endoscopic ultrasound (EUS), and liver biopsy.
+        Some gastroenterology trainees will complete a "fourth-year" (although this is often their seventh year
+        of graduate medical education) in transplant hepatology, advanced interventional endoscopy, inflammatory
+        bowel disease, motility, or other topics.
+        Advanced endoscopy, sometimes called interventional or surgical endoscopy, is a sub-specialty of
+        gastroenterology that focuses on advanced endoscopic techniques for the treatment of pancreatic,
+        hepatobiliary, and gastrointestinal disease. Interventional gastroenterologists typically undergo an
+        additional year of rigorous training in advanced endoscopic techniques including endoscopic retrograde
+        cholangiopancreatography, endoscopic ultrasound-guided diagnostic and interventional procedures,
+        and advanced resection techniques including endoscopic mucosal resection and endoscopic submucosal
+        dissection. Additionally, the performance of endoscopic bariatric procedures is also performed by some
+        advanced endoscopists.
+        Hepatology, or hepatobiliary medicine, encompasses the study of the liver, pancreas, and biliary
+        tree, and is traditionally considered a sub-specialty of gastroenterology, while proctology
+        encompasses disorders of the anus, rectum, and colon and is considered a sub-specialty of general surgery.
+    </string>
+    <string name="department_12_Detail">Description \n
+        Pulmonology is a medical specialty that deals with diseases involving the respiratory tract.
+        It is also known as respirology, respiratory medicine, or chest medicine in some countries and areas.
+        Pulmonology is considered a branch of internal medicine, and is related to intensive care medicine.
+        Pulmonology often involves managing patients who need life support and mechanical ventilation.
+        Pulmonologists are specially trained in diseases and conditions of the chest, particularly pneumonia,
+        asthma, tuberculosis, emphysema, and complicated chest infections.
+    </string>
+    <string name="public_department_Details">This Department for all questions in any department you want ,
+    and also for conflicted departments</string>
+
+
+    <string name="no_internet_connection" translatable="false">No internet is available</string>
+    <string name="mobile_data_connection" translatable="false">Mobile data enabled</string>
+    <string name="wifi_connection" translatable="false">Wifi enabled</string>
+
+    <string name="required">Required</string>
+
+    <string name="emailKey">EmailOfSharedPreferences</string>
+    <string name="passwordKey">PasswordOfSharedPreferences</string>
+    <string name="doctorKey">DoctorOfSharedPreferences</string>
+    <string name="title_activity_department_detail">ScrollingActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="sendDepartmentDetails">SELECTED DEPARTMENT DATA</string>
+
+    <string name="publicQuestions">Public Questions</string>
+    <string name="SentDoctor">Sent Doctor</string>
+
+    <string-array name="gender">
+        <item>MALE</item>
+        <item>FEMALE</item>
+    </string-array>
+
+    <string name="advice_1">
+        Lemon and hot water used as a vitamin C therapy will not \“kill\” or \“slow the spread\”
+        of COVID-19, nor would it provide a clinically significant amount of vitamin C to begin with.
+        A buffered solution of hot lemon juice and sodium bicarbonate, similarly,
+        will do nothing to change the pH of either your body or your immune system.
+        For these reasons both lemon-related \“cures\” are rated \“False.\”
+    </string>
+    <string name="advice_2">
+        \tMake sure your nose, mouth and chin are covered.\n
+      * If your mask has pleats, they should open downward.\n
+      * Pull your mask up so it covers your nose, and tug it down so it covers your mouth.\n
+      * After you\'ve put your mask on, don\'t touch it again until it\'s time to take it off.
+    </string>
+    <string name="advice_3">
+        \tTreating COVID-19 at home: Care tips for you and others\n
+        Providing care at home for a person sick with COVID-19?
+        Or caring for yourself at home? Understand when emergency care is needed and what you
+        can do to prevent the spread of infection.
+    </string>
+    <string name="advice_4">
+        People with COVID-19 have had a wide range of symptoms reported – ranging from mild
+        symptoms to severe illness. Symptoms may appear 2-14 days after exposure to the virus.
+        Anyone can have mild to severe symptoms. People with these symptoms may have COVID-19:\n
+        * Fever or chills
+        * Cough\n
+        * Shortness of breath or difficulty breathing\n
+        * Fatigue\n
+        * Muscle or body aches\n
+        * Headache\n
+        * New loss of taste or smell\n
+        * Sore throat\n
+        * Congestion or runny nose\n
+        * Nausea or vomiting\n
+        * Diarrhea\n
+    </string>
+    <string name="advice_5">
+        \tAlcohol and Substance Use\n
+        Increased stress can lead to increases in alcohol and substance use.
+        If you or someone you care about is starting to use alcohol or other substances,
+        or is increasing their use during the COVID-19 pandemic.
+    </string>
+    <string name="advice_6">
+        \tWashing your hands can protect you and your loved ones.\n
+        Respiratory viruses like coronavirus disease (COVID-19) spread when mucus or
+        droplets containing the virus get into your body through your eyes, nose or throat.
+        Often, the virus can easily spread from one person to the next via hands.
+        During a global pandemic, one of the cheapest, easiest, and most important ways to prevent the
+        spread of a virus is to wash your hands frequently with soap and water.
+    </string>
+    <string name="advice_7">
+        Knowing how to keep your smartphone clean is important anytime, but it might seem 
+        especially urgent now, due to COVID-19.
+        Cleaning is top of mind during the coronavirus pandemic. You might regularly wash 
+        everything from your hands to your doorknobs. It\’s a good idea to make sure your cell phone
+        is on your cleaning list.
+    </string>
+    <string name="advice_8">
+        Wearing a face mask in public helps prevent the spread of COVID-19 — but only
+        if worn properly, covering both your nose and mouth. Read our mask-wearing tips
+        to get the maximum protection for yourself and others.
+    </string>
+
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="login_new_user">New user can sign up by clicking sign up</string>
+    <string name="login_new_user_sign_up">Sign up</string>
+    <string name="login_forget_password">forget password</string>
+    <string name="login_log_in">Log In</string>
+    <string name="login_log_in2">LOG IN</string>
+
+
+    <string name="sign_up0_page_1_of_2">Sign Up Page 1 of 2</string>
+    <string name="sign_up0_patient">Patient</string>
+    <string name="sign_up0_doctor">Doctor</string>
+    <string name="sign_up0_name">Name</string>
+
+
+    <string name="sign_up1_page_2_of_2">Sign Up Page 2 of 2</string>
+    <string name="sign_up1_age">Age</string>
+    <string name="sign_up1_phone">Phone</string>
+
+
+    <string name="sign_up2_page_3_of_3">Sign Up Page 3 of 3</string>
+    <string name="sign_up2_not_selected">Not Selected Yet</string>
+    <string name="sign_up2_years_of_experience">Years Of Experience</string>
+
+
+    <string name="private_question_title">Write Private Question</string>
+    <string name="private_question_to">To : </string>
+    <string name="private_question_question_body">Question Body</string>
+    <string name="private_question_send_this_private_question">Send This Private Question</string>
+
+    <string name="show_private_messages">Show Private Messages</string>
+
+    <string name="forget_password">Forget Password</string>
+    <string name="forget_password_send_email">We will send reset password via the email you enter</string>
+    <string name="forget_password_send_email_reset">send email reset password</string>
+
+    <string name="public_question_from">From : </string>
+    <string name="public_question">Write Public Question</string>
+    <string name="public_question_send">Send Public Question</string>
+
+    <string name="all_doctors_in_department">All Doctors In This Department</string>
+
+    <string name="total_infected">Total Infected : </string>
+    <string name="total_death">Total Death : </string>
+
+    <string name="all_departments">All Departments</string>
+
+    <string name="sign_out">SIGN OUT</string>
+    <string name="sign_out2">Sign Out</string>
+
+    <string name="required_more_than_17">Required More Than 17</string>
+    <string name="required_more_than_5_charachters">Required More Than 5 Characters</string>
+    <string name="required_phone_number">Required Phone Number</string>
+    <string name="loading">Loading</string>
+    <string name="last_page">Last Page</string>
+    <string name="sign_up_page_2_of_3">Sign Up Page 2 of 3</string>
+    <string name="send_the_answer">Send The Answer</string>
+    <string name="not_empty">Not Empty</string>
+    <string name="please_wait">Please Wait</string>
+    <string name="years_of_experience">Years Of Experience : </string>
+    <string name="password_set_send">Password Reset Send Successfully Via Email Please Check Your Email Now ..</string>
+    <string name="invalid_email">Invalid Email</string>
+    <string name="error_occurred">Error Occurred</string>
+    <string name="no_internet">No Internet Access</string>
+
+
+    <string name="patient_role">Patient can ask any doctor what he want then the doctor will answer the question.</string>
+    <string name="doctor_role">Doctors will answer all the questions about all medical departments.</string>
+    <string name="COVID_19_role">We will also show all new news about COVID_19 and the new infected patients.</string>
+    <string name="COVID_19">COVID_19</string>
+    <string name="medicine_new_news">Medicine New News</string>
+    <string name="medicine_new_news_role">We will show the last news about the medicine department.</string>
+    <string name="covid_19_advices">COVID_19 Advices</string>
+    <string name="covid_19_advices_role">You will have the advices and the mechanism of dealing with COVID_19.</string>
+    <string name="vaccine">Vaccine</string>
+    <string name="vaccine_role">You can also ask for vaccine in egypt.</string>
+
+
+    <string name="answer_the_question">Answer The Question</string>
+    <string name="send_this_question">Send This Question</string>
+    <string name="saving">Saving ..</string>
+    <string name="sign_up_page_1_of_3">Sign Up Page 1 of 3</string>
+    <string name="sign_up_page_1_of_2">Sign Up Page 1 of 2</string>
+    <string name="not_selected_yet">Not Selected Yet</string>
+    <string name="select_the_department">Select The Department</string>
+
+
+    <string name="getting_data">Getting Data ...</string>
+    <string name="only_doctors">Only For Doctors In This Department</string>
+    <string name="only_doctor">Only For Selected Doctor</string>
+
+
+    <string name="hassan">Hassan Reda Hassan El-hefny</string>
+    <string name="islam">Islam Hamam Mostafa</string>
+
+
+</resources>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/packet_color_4"
+    tools:context=".Login_In">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/log_in_tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:fontFamily="@font/passero_one"
+        android:gravity="center"
+        android:text="@string/login_log_in2"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="15dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@id/log_in_btn_login"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/log_in_tv_title">
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="15dp"
+            android:hint="@string/login_email_hint"
+            android:textColorHint="@color/white"
+            app:boxStrokeColor="@color/white"
+            app:counterEnabled="true"
+            app:counterTextColor="@color/white"
+            app:endIconMode="clear_text"
+            app:endIconTint="@color/packet_color_1"
+            app:helperText="@string/required"
+            app:helperTextTextColor="@color/white"
+            app:hintEnabled="true"
+            app:hintTextColor="@color/black"
+            app:startIconDrawable="@drawable/ic_email"
+            app:startIconTint="@color/packet_color_1">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/log_in_text_input_editText_email"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/packet_color_1" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="15dp"
+            android:hint="@string/login_password_hint"
+            android:textColorHint="@color/white"
+            app:boxStrokeColor="@color/white"
+            app:counterEnabled="true"
+            app:counterTextColor="@color/white"
+            app:endIconMode="password_toggle"
+            app:endIconTint="@color/packet_color_1"
+            app:helperText="@string/required"
+            app:helperTextTextColor="@color/white"
+            app:hintEnabled="true"
+            app:hintTextColor="@color/black"
+            app:startIconDrawable="@drawable/ic_password"
+            app:startIconTint="@color/packet_color_1">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/log_in_text_input_editText_password"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="textPassword"
+                android:textColor="@color/packet_color_1" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="15dp"
+            android:fontFamily="@font/passero_one"
+            android:gravity="center"
+            android:text="@string/login_new_user"
+            android:textColor="@color/packet_color_1"
+            android:textSize="20sp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/log_in_btn_sign_up"
+            app:cornerRadius="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:backgroundTint="@color/purple_500"
+            android:fontFamily="@font/passero_one"
+            android:onClick="signUp"
+            android:text="@string/login_new_user_sign_up"
+            android:textColor="@color/packet_color_1"
+            android:textSize="25sp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/log_in_btn_forget_password"
+            app:cornerRadius="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:backgroundTint="@color/purple_500"
+            android:fontFamily="@font/passero_one"
+            android:onClick="forgetPassword"
+            android:text="@string/login_forget_password"
+            android:textColor="@color/packet_color_1"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/log_in_btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:backgroundTint="@color/packet_color_2"
+        android:drawableEnd="@drawable/ic_up_sign"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/passero_one"
+        android:gravity="start"
+        android:onClick="logIn"
+        android:padding="10dp"
+        android:paddingStart="20dp"
+        android:text="@string/login_log_in"
+        android:textSize="20sp"
+        app:cornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

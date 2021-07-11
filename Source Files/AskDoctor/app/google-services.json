@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1097994144537",
+    "project_id": "ask-doctor-5984d",
+    "storage_bucket": "ask-doctor-5984d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1097994144537:android:492edfa04900c6523cd388",
+        "android_client_info": {
+          "package_name": "com.elhefny.askdoctor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1097994144537-0b34apkvf4re4emkeobeop05o4o1q2l3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYOXE4-S5vS1qwYYR5RYOU2E9G-iF3esg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1097994144537-0b34apkvf4re4emkeobeop05o4o1q2l3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

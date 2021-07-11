@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#383e56"
+    tools:context=".Sign_Up_2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:id="@+id/sign_up_2_tv1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:fontFamily="@font/artifika"
+                    android:gravity="center"
+                    android:text="@string/sign_up2_page_3_of_3"
+                    android:textColor="@color/packet_color_1"
+                    android:textSize="30sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/sign_up_2_rv_departments"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal"
+                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                    app:layout_constraintBottom_toTopOf="@id/sign_up_2_iv"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/sign_up_2_tv1"
+                    tools:listitem="@layout/recycler_departments_sign_up" />
+
+                <ImageView
+                    android:id="@+id/sign_up_2_iv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:src="@drawable/ic_baseline_arrow_downward_24"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/sign_up_2_rv_departments" />
+
+                <TextView
+                    android:id="@+id/sign_up_2_tv3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:fontFamily="@font/artifika"
+                    android:gravity="center"
+                    android:text="@string/sign_up2_not_selected"
+                    android:textColor="@color/packet_color_1"
+                    android:textSize="25sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/sign_up_2_iv" />
+
+                <TextView
+                    android:id="@+id/sign_up_2_tv4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:fontFamily="@font/passero_one"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="@color/packet_color_1"
+                    android:textSize="30sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/sign_up_2_tv3" />
+
+                <NumberPicker
+                    android:id="@+id/sign_up_2_number_picker"
+                    android:layout_width="200dp"
+                    android:layout_height="120dp"
+                    android:layout_margin="5dp"
+                    android:orientation="vertical"
+                    android:outlineAmbientShadowColor="@color/white"
+                    android:overScrollMode="always"
+                    android:soundEffectsEnabled="true"
+                    android:theme="@style/Theme.NumberPicker"
+                    app:layout_constraintBottom_toTopOf="@+id/sign_up_2_btn"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/sign_up_2_tv4" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/sign_up_2_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:backgroundTint="@color/packet_color_2"
+                    android:drawableEnd="@drawable/ic_up_sign"
+                    android:drawablePadding="10dp"
+                    android:fontFamily="@font/passero_one"
+                    android:gravity="start"
+                    android:onClick="Sign_Up"
+                    android:padding="10dp"
+                    android:paddingStart="20dp"
+                    android:text="@string/login_new_user_sign_up"
+                    android:textSize="20sp"
+                    app:cornerRadius="20dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/sign_up_2_number_picker" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

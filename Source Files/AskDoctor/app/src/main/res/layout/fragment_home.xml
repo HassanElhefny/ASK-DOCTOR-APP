@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/packet_color_4"
+    android:orientation="vertical"
+    tools:context=".AllFragments.HomeFragment">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/home_fragment_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/passero_one"
+        android:gravity="center"
+        android:text="@string/all_departments"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/fragment_main_recycler_view_departments"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        tools:listitem="@layout/recycler_departments_design" />
+
+</LinearLayout>

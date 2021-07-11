@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.elhefny.askdoctor">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:allowClearUserData="true"
+        android:icon="@drawable/ic_heart_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_heart_logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AskDoctor"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".AddPrivateQuestion"></activity>
+        <activity android:name=".PrivateQuestion">
+        </activity>
+        <activity android:name=".PublicQuestionActivity" />
+        <activity android:name=".WorldHealthOrganization" />
+        <activity android:name=".DoctorProfile" />
+        <activity android:name=".Dedelopers.ProfileDeveloperActivity" />
+        <activity android:name=".Sign_Up_2" />
+        <activity android:name=".SelectedDepartmentDetailActivity" />
+        <activity android:name=".ForgetPassword" />
+        <activity android:name=".Sign_Up_0" />
+        <activity android:name=".Login_In" />
+        <activity android:name=".Sign_Up_1" />
+        <activity
+            android:name=".Dashboard"
+            android:theme="@style/Theme.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AllFragments.LastNewsFragment">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/fragment_last_news_rv"
+        tools:listitem="@layout/recycler_new_news_design"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</FrameLayout>

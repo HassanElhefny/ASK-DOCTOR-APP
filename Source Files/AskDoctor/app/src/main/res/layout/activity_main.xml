@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:cardCornerRadius="15dp"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/activity_main_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <com.etebarian.meowbottomnavigation.MeowBottomNavigation
+        android:id="@+id/activity_main_bottom_navigation_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:mbn_backgroundBottomColor="@color/blue"
+        app:mbn_circleColor="@color/packet_color_1"
+        app:mbn_countBackgroundColor="@color/packet_color_4"
+        app:mbn_countTextColor="@color/packet_color_3"
+        app:mbn_defaultIconColor="@color/white"
+        app:mbn_selectedIconColor="@color/packet_color_2" />
+
+
+</LinearLayout>
